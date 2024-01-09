@@ -12,3 +12,4 @@ Este repositorio contiene el codigo de un bot de trading que da consejos de oper
 
 - **trading_bot.py**: bot que analiza toda la informacion anteriormente procesada y da un consejo sobre una posible operacion a realizar sobre cada asset.
 
+- **scope.txt**: una lista de nombres sobre los diferentes assets que quieras analizar.
