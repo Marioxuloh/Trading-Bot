@@ -17,9 +17,9 @@ def find_cross_dates(data):
 
     return golden_cross_dates, death_cross_dates
 
-def calculate_and_plot_moving_averages(asset, data):
-    # Calculate moving averages with a window of 30 days
-    data_with_ma = calculate_moving_averages(data, window=30)
+def calculate_moving_averages_and_crosses(asset, data, window):
+    # Calculate moving averages
+    data_with_ma = calculate_moving_averages(data, window)
 
     # Find dates of Golden Crosses and Death Crosses
     golden_cross_dates, death_cross_dates = find_cross_dates(data_with_ma)
